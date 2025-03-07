@@ -1,4 +1,5 @@
 $(function() {
+    $("#toolsQuestion").hide();
 
     $("#button").click(refreshQuizList);
 
@@ -41,6 +42,7 @@ $(function() {
         }
 
     function refreshQuizList(){
+        $("#toolsQuestion").hide();
         $("#currentquestionnaire").empty();
         $("#currentquestion").empty();
         requete = "http://127.0.0.1:5000/quiz/api/v1.0/questionnaires";
@@ -56,6 +58,7 @@ $(function() {
     }
 
     function details(event){
+        $("#toolsQuestion").show();
         $("#currentquestionnaire").empty();
         formQuiz();
         fillFormQuiz(event.data);
