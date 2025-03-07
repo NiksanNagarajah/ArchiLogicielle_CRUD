@@ -1,0 +1,6 @@
+FLASK_APP = todo
+FLASK_DEBUG = 1 
+
+FLASK_APP = quiz
+FLASK_DEBUG = 1 
+
