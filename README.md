@@ -27,7 +27,7 @@ source venv/bin/activate
 A la racine du projet, lancer la commande : 
 
 ```
-    flask run
+flask run
 ```
 
 Puis, ouvrer un explorateur de de fichier à la racine du projet, double cliquer sur le répertoire `quiz` et enfin double cliquer sur le fichier `quiz.html`
